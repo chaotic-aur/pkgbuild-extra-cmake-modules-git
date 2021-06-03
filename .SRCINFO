@@ -1,19 +1,24 @@
 pkgbase = extra-cmake-modules-git
 	pkgdesc = Extra modules and scripts for CMake
-	pkgver = 5.83.0.r3302.001f901e
+	pkgver = 5.83.0_r3316.gde019f4
 	pkgrel = 1
-	url = https://projects.kde.org/projects/kdesupport/extra-cmake-modules
-	arch = any
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-git
 	license = LGPL
 	makedepends = git
 	makedepends = python-sphinx
 	makedepends = python-requests
 	makedepends = qt5-tools
 	depends = cmake
+	optdepends = python-pyxdg: to generate fastlane metadata for Android apps
+	optdepends = python-requests: to generate fastlane metadata for Android apps
+	optdepends = python-yaml: to generate fastlane metadata for Android apps
 	provides = extra-cmake-modules
 	conflicts = extra-cmake-modules
-	source = git+https://invent.kde.org/frameworks/extra-cmake-modules.git
+	source = git+https://github.com/KDE/extra-cmake-modules.git
+	source = ECM-no-init.py.patch
 	sha256sums = SKIP
+	sha256sums = 5695e45c7621a00c0bca28f058c13b5d524f963a00b53337c8cefcdaf22c4b52
 
 pkgname = extra-cmake-modules-git
-
