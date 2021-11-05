@@ -1,6 +1,6 @@
 pkgbase = extra-cmake-modules-git
 	pkgdesc = Extra modules and scripts for CMake
-	pkgver = 5.84.0_r3332.g462fe7f
+	pkgver = 5.87.0_r3368.gdc86450
 	pkgrel = 1
 	url = https://community.kde.org/Frameworks
 	arch = x86_64

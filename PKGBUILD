@@ -5,7 +5,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=extra-cmake-modules-git
-pkgver=5.84.0_r3332.g462fe7f
+pkgver=5.87.0_r3368.gdc86450
 pkgrel=1
 pkgdesc='Extra modules and scripts for CMake'
 arch=($CARCH)
